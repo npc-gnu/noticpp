@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ -o noticpp noticpp.cpp
+sudo cp noticpp /usr/local/bin
