@@ -1,4 +1,4 @@
 #!/bin/bash
 
-g++ -o noticpp noticpp.cpp
+g++ -Iinclude src/* -o noticpp
 sudo cp noticpp /usr/local/bin
