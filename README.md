@@ -27,7 +27,7 @@ sudo zypper install git gcc-c++
 
 ### 2. Do everything else with a single command
 ```bash
-git clone https://github.com/npc-gnu/noticpp && cd noticpp && g++ -o install install.cpp && ./install
+git clone https://github.com/npc-gnu/noticpp && cd noticpp && g++ -o install install.cpp && sudo ./install
 ```
 
 ## Usage:
