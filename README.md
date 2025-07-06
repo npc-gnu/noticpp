@@ -1,9 +1,9 @@
 # noticpp
 - **NotiCPP** is a software to make you remind something.
 
-> Note: THIS SOFTWARE ONLY WORKS ON BASH! 
+> Note: THIS SOFTWARE ONLY WORKS ON BASH AND ZSH! 
 ## How it works?
-It adds your input to *.bashrc* and every opening of your terminal it says your input.
+It adds your input to *~/.bashrc* or *~/.zshrc* and every opening of your terminal it says your input.
 
 ## How to install?
 
@@ -27,7 +27,7 @@ sudo zypper install git gcc-c++
 
 ### 2. Do everything else with a single command
 ```bash
-git clone https://github.com/npc-gnu/noticpp && cd noticpp && chmod +x install && ./install
+git clone https://github.com/npc-gnu/noticpp && cd noticpp && g++ -o install install.cpp && ./install
 ```
 
 ## Usage:
